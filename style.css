@@ -1,0 +1,107 @@
+* {
+		  margin: 0;
+		  padding: 0;
+		  outline: 0 none;
+		  list-style: none;
+		  text-decoration: none;
+		}
+
+		html,
+		body {
+			width: 100vw;
+		 	height: 100vh;
+			overflow: hidden;
+			background: linear-gradient(45deg, #2ecc71, #16a085);
+		}
+
+		body {
+		  	display: flex;
+		  	position: relative;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.container {
+			overflow: hidden;
+			background-size: cover;
+			border: 10px solid #2d3436;
+			background-position: center;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+			background-repeat: no-repeat;
+			box-shadow: 0px 0px 7px black;
+			width: 400px;
+			height: 400px;
+			background-color: #c7ecee;
+			background-image: url("https://1.bp.blogspot.com/-yEovcKTuoC0/U5TrBtVCNyI/AAAAAAAA1pw/L1_u1P-GTNg/s1600/8.png");
+		}
+		
+		#centro {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			z-index: 10;
+			margin: auto;
+			box-shadow: 0px 0px 2px;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+			width: 25px;
+			height: 25px;
+			background-color: #000;
+		}
+
+		#segundos {
+			z-index: 8;
+			position: absolute;
+			margin: 30px 197px;
+			box-shadow: 0px 0px 2px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+			border-radius: 6px;
+			transform-origin: 3px bottom;
+			width: 3px;
+			height: 170px;
+			background-color: #eb4d4b;
+
+		}
+		#minutos {
+			z-index: 6;
+			position: absolute;
+			margin: 40px 195px;
+			box-shadow: 0px 0px 2px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+			border-radius: 6px;
+			transform-origin: 5px bottom;
+			width: 6px;
+			height: 160px;
+			background-color: #30336b;
+		}
+
+		#horas {
+			z-index: 4;
+			margin: 75px 195px;
+			position: absolute;
+			box-shadow: 0px 0px 2px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			-ms-border-radius: 6px;
+			-o-border-radius: 6px;
+			border-radius: 6px;
+			transform-origin: 5px bottom;
+			width: 8px;
+			height: 125px;
+			background-color: #30336b;
+		}
